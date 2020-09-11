@@ -13,7 +13,7 @@ module.exports = function markdownItFigureCaption(md, config) {
 
     return `
       <figure>
-        <img src="${url}" alt="${caption}" />
+        <img src="${url}" alt="${caption}" loading="lazy"/>
         <figcaption>${caption}</figcaption>
       </figure>
     `
